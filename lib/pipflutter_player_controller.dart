@@ -1290,7 +1290,7 @@ class PipFlutterPlayerController {
   ///cache started for given [pipFlutterPlayerDataSource] then it will be ignored.
   Future<void> stopPreCache(
       PipFlutterPlayerDataSource pipFlutterPlayerDataSource) async {
-    return VideoPlayerController?.stopPreCache(pipFlutterPlayerDataSource.url,
+    return VideoPlayerController.stopPreCache(pipFlutterPlayerDataSource.url,
         pipFlutterPlayerDataSource.cacheConfiguration?.key);
   }
 
