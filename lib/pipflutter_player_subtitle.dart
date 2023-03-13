@@ -1,4 +1,4 @@
-import 'package:pip_flutter/pipflutter_player_utils.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_utils.dart';
 
 class PipFlutterPlayerSubtitle {
   static const String timerSeparator = ' --> ';

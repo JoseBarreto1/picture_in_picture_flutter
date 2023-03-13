@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:pip_flutter/pipflutter_player_clickable_widget.dart';
-import 'package:pip_flutter/pipflutter_player_controller.dart';
-import 'package:pip_flutter/pipflutter_player_controls_configuration.dart';
-import 'package:pip_flutter/pipflutter_player_controls_state.dart';
-import 'package:pip_flutter/pipflutter_player_material_progress_bar.dart';
-import 'package:pip_flutter/pipflutter_player_multiple_gesture_detector.dart';
-import 'package:pip_flutter/pipflutter_player_utils.dart';
-import 'package:pip_flutter/video_player.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_clickable_widget.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_controller.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_controls_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_controls_state.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_material_progress_bar.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_multiple_gesture_detector.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_utils.dart';
+import 'package:picture_in_picture_flutter/video_player.dart';
 
 import 'pipflutter_player_progress_colors.dart';
 
@@ -364,13 +364,11 @@ class _PipFlutterPlayerMaterialControlsState
     if (!pipFlutterPlayerController!.controlsEnabled) {
       return const SizedBox();
     }
-    return Container(
-      child: Center(
-        child: AnimatedOpacity(
-          opacity: controlsNotVisible ? 0.0 : 1.0,
-          duration: _controlsConfiguration.controlsHideTime,
-          child: _buildMiddleRow(),
-        ),
+    return Center(
+      child: AnimatedOpacity(
+        opacity: controlsNotVisible ? 0.0 : 1.0,
+        duration: _controlsConfiguration.controlsHideTime,
+        child: _buildMiddleRow(),
       ),
     );
   }

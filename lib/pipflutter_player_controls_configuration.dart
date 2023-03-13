@@ -1,9 +1,8 @@
-import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pip_flutter/pipflutter_player_controller.dart';
-import 'package:pip_flutter/pipflutter_player_overflow_menu_item.dart';
-import 'package:pip_flutter/pipflutter_player_theme.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_controller.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_overflow_menu_item.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_theme.dart';
 
 ///UI configuration of PipFlutter Player. Allows to change colors/icons/behavior
 ///of controls. Used in PiPFlutterPlayerConfiguration. Configuration applies only

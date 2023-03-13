@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:pip_flutter/pipflutter_player.dart';
-import 'package:pip_flutter/pipflutter_player_controls_configuration.dart';
-import 'package:pip_flutter/pipflutter_player_subtitles_configuration.dart';
-import 'package:pip_flutter/pipflutter_player_translations.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_controls_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_subtitles_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_translations.dart';
 import 'pipflutter_player_event.dart';
 
 ///Configuration of PipFlutter Player. Allows to setup general behavior of player.

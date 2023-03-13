@@ -3,16 +3,16 @@ import 'dart:math';
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pip_flutter/pipflutter_player_asms_audio_track.dart';
-import 'package:pip_flutter/pipflutter_player_asms_track.dart';
-import 'package:pip_flutter/pipflutter_player_clickable_widget.dart';
-import 'package:pip_flutter/pipflutter_player_controls_configuration.dart';
-import 'package:pip_flutter/pipflutter_player_event.dart';
-import 'package:pip_flutter/pipflutter_player_event_type.dart';
-import 'package:pip_flutter/pipflutter_player_subtitles_source.dart';
-import 'package:pip_flutter/pipflutter_player_subtitles_source_type.dart';
-import 'package:pip_flutter/pipflutter_player_utils.dart';
-import 'package:pip_flutter/video_player.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_audio_track.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_track.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_clickable_widget.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_controls_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_event.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_event_type.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_subtitles_source.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_subtitles_source_type.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_utils.dart';
+import 'package:picture_in_picture_flutter/video_player.dart';
 import 'pipflutter_player_controller.dart';
 
 ///Base class for both material and cupertino controls

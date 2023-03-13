@@ -1,8 +1,8 @@
-import 'package:pip_flutter/drm_init_data.dart';
-import 'package:pip_flutter/format.dart';
-import 'package:pip_flutter/playlist.dart';
-import 'package:pip_flutter/rendition.dart';
-import 'package:pip_flutter/variant.dart';
+import 'package:picture_in_picture_flutter/drm_init_data.dart';
+import 'package:picture_in_picture_flutter/format.dart';
+import 'package:picture_in_picture_flutter/playlist.dart';
+import 'package:picture_in_picture_flutter/rendition.dart';
+import 'package:picture_in_picture_flutter/variant.dart';
 
 class HlsMasterPlaylist extends HlsPlaylist {
   HlsMasterPlaylist({

@@ -1,4 +1,4 @@
-import 'package:pip_flutter/format.dart';
+import 'package:picture_in_picture_flutter/format.dart';
 
 class Variant {
   Variant({

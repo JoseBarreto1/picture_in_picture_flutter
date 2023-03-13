@@ -1,11 +1,11 @@
-package com.example.pip_flutter
+package com.example.picture_in_picture_flutter
 
 import android.content.Context
 import android.net.Uri
 import android.util.Log
-import com.example.pip_flutter.DataSourceUtils.isHTTP
-import com.example.pip_flutter.DataSourceUtils.getUserAgent
-import com.example.pip_flutter.DataSourceUtils.getDataSourceFactory
+import com.example.picture_in_picture_flutter.DataSourceUtils.isHTTP
+import com.example.picture_in_picture_flutter.DataSourceUtils.getUserAgent
+import com.example.picture_in_picture_flutter.DataSourceUtils.getDataSourceFactory
 import androidx.work.WorkerParameters
 import com.google.android.exoplayer2.upstream.cache.CacheWriter
 import androidx.work.Worker

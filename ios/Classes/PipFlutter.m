@@ -1,6 +1,6 @@
 
 #import "PipFlutter.h"
-#import <pip_flutter/pip_flutter-Swift.h>
+#import <picture_in_picture_flutter/picture_in_picture_flutter-Swift.h>
 
 static void* timeRangeContext = &timeRangeContext;
 static void* statusContext = &statusContext;

@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:pip_flutter/pipflutter_player_subtitles_source.dart';
-import 'package:pip_flutter/pipflutter_player_utils.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_subtitles_source.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_utils.dart';
 
 import 'pipflutter_player_subtitle.dart';
 import 'pipflutter_player_subtitles_source_type.dart';

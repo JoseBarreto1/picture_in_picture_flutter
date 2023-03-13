@@ -1,12 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pip_flutter_example">
+    package="com.example.picture_in_picture_flutter_example">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
    <application
        android:usesCleartextTraffic="true"
-        android:label="pip_flutter_example"
+        android:label="picture_in_picture_flutter_example"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

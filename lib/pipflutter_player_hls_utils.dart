@@ -1,16 +1,16 @@
-import 'package:pip_flutter/hls_master_playlist.dart';
-import 'package:pip_flutter/hls_media_playlist.dart';
-import 'package:pip_flutter/hls_playlist_parser.dart';
-import 'package:pip_flutter/pipflutter_player_asms_audio_track.dart';
-import 'package:pip_flutter/pipflutter_player_asms_data_holder.dart';
-import 'package:pip_flutter/pipflutter_player_asms_subtitle.dart';
-import 'package:pip_flutter/pipflutter_player_asms_subtitle_segment.dart';
-import 'package:pip_flutter/pipflutter_player_asms_track.dart';
-import 'package:pip_flutter/pipflutter_player_asms_utils.dart';
-import 'package:pip_flutter/pipflutter_player_utils.dart';
-import 'package:pip_flutter/rendition.dart';
-import 'package:pip_flutter/segment.dart';
-import 'package:pip_flutter/util.dart';
+import 'package:picture_in_picture_flutter/hls_master_playlist.dart';
+import 'package:picture_in_picture_flutter/hls_media_playlist.dart';
+import 'package:picture_in_picture_flutter/hls_playlist_parser.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_audio_track.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_data_holder.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_subtitle.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_subtitle_segment.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_track.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_utils.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_utils.dart';
+import 'package:picture_in_picture_flutter/rendition.dart';
+import 'package:picture_in_picture_flutter/segment.dart';
+import 'package:picture_in_picture_flutter/util.dart';
 
 ///HLS helper class
 class PipFlutterPlayerHlsUtils {

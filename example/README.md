@@ -1,6 +1,6 @@
-# pip_flutter_example
+# picture_in_picture_flutter_example
 
-Demonstrates how to use the pip_flutter plugin.
+Demonstrates how to use the picture_in_picture_flutter plugin.
 
 ## Getting Started
 

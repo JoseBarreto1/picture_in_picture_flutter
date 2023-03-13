@@ -1,9 +1,9 @@
-import 'package:pip_flutter/mime_types.dart';
-import 'package:pip_flutter/pipflutter_player_asms_audio_track.dart';
-import 'package:pip_flutter/pipflutter_player_asms_data_holder.dart';
-import 'package:pip_flutter/pipflutter_player_asms_subtitle.dart';
-import 'package:pip_flutter/pipflutter_player_asms_track.dart';
-import 'package:pip_flutter/pipflutter_player_utils.dart';
+import 'package:picture_in_picture_flutter/mime_types.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_audio_track.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_data_holder.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_subtitle.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_track.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_utils.dart';
 import 'package:xml/xml.dart';
 
 ///DASH helper class

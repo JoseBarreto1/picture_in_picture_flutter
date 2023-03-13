@@ -1,4 +1,4 @@
-package com.example.pip_flutter_example
+package com.example.picture_in_picture_flutter_example
 
 import android.app.*
 import android.content.Context

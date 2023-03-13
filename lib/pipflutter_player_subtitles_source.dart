@@ -1,4 +1,4 @@
-import 'package:pip_flutter/pipflutter_player_asms_subtitle_segment.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_asms_subtitle_segment.dart';
 
 import 'pipflutter_player_subtitles_source_type.dart';
 

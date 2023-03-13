@@ -1,4 +1,4 @@
-import 'package:pip_flutter/pipflutter_player_drm_type.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_drm_type.dart';
 
 ///Configuration of DRM used to protect data source
 class PipFlutterPlayerDrmConfiguration {

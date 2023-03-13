@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-import 'package:pip_flutter/pipflutter_player_buffering_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_buffering_configuration.dart';
 import 'method_channel_video_player.dart';
 
 /// The interface that implementations of video_player must implement.

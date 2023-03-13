@@ -1,11 +1,11 @@
 import 'package:flutter/widgets.dart';
-import 'package:pip_flutter/pipflutter_player_buffering_configuration.dart';
-import 'package:pip_flutter/pipflutter_player_cache_configuration.dart';
-import 'package:pip_flutter/pipflutter_player_data_source_type.dart';
-import 'package:pip_flutter/pipflutter_player_drm_configuration.dart';
-import 'package:pip_flutter/pipflutter_player_notification_configuration.dart';
-import 'package:pip_flutter/pipflutter_player_subtitles_source.dart';
-import 'package:pip_flutter/pipflutter_player_video_format.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_buffering_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_cache_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_data_source_type.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_drm_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_notification_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_subtitles_source.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_video_format.dart';
 
 ///Representation of data source which will be played in PipFlutter Player. Allows
 ///to setup all necessary configuration connected to video source.

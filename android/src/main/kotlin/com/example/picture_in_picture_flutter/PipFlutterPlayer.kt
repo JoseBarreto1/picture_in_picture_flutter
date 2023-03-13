@@ -1,4 +1,4 @@
-package com.example.pip_flutter
+package com.example.picture_in_picture_flutter
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -13,9 +13,9 @@ import android.net.Uri
 import android.os.Build
 import android.os.Handler
 import android.os.Looper
-import com.example.pip_flutter.DataSourceUtils.getUserAgent
-import com.example.pip_flutter.DataSourceUtils.isHTTP
-import com.example.pip_flutter.DataSourceUtils.getDataSourceFactory
+import com.example.picture_in_picture_flutter.DataSourceUtils.getUserAgent
+import com.example.picture_in_picture_flutter.DataSourceUtils.isHTTP
+import com.example.picture_in_picture_flutter.DataSourceUtils.getDataSourceFactory
 import io.flutter.plugin.common.EventChannel
 import io.flutter.view.TextureRegistry.SurfaceTextureEntry
 import io.flutter.plugin.common.MethodChannel
@@ -826,7 +826,7 @@ internal class PipFlutterPlayer(
         private const val FORMAT_DASH = "dash"
         private const val FORMAT_HLS = "hls"
         private const val FORMAT_OTHER = "other"
-        private const val DEFAULT_NOTIFICATION_CHANNEL = "PIP_FLUTTER_PLAYER_NOTIFICATION"
+        private const val DEFAULT_NOTIFICATION_CHANNEL = "picture_in_picture_flutter_PLAYER_NOTIFICATION"
         private const val NOTIFICATION_ID = 20772077
 
         //Clear cache without accessing PipFlutterPlayerCache.

@@ -1,4 +1,4 @@
-import 'package:pip_flutter/drm_init_data.dart';
+import 'package:picture_in_picture_flutter/drm_init_data.dart';
 
 class Segment {
   Segment({

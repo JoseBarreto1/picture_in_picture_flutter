@@ -1,8 +1,8 @@
-# pip_flutter
+# picture_in_picture_flutter
 
 A Flutter plugin for Android  and ios for make video in picture in picture mode.
 
-![](https://github.com/kesmitopiwala/pip_flutter/blob/master/assets/pictureinpicturevideo.gif)
+![](https://github.com/kesmitopiwala/picture_in_picture_flutter/blob/master/assets/pictureinpicturevideo.gif)
 
 <br>
 
@@ -13,7 +13,7 @@ A Flutter plugin for Android  and ios for make video in picture in picture mode.
 
 | Picture in Picture Mode                                                                                    | Disable Picture in Picture Mode                                                                                      |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| ![](https://github.com/kesmitopiwala/pip_flutter/blob/master/assets/pipmode.png) | ![](https://github.com/kesmitopiwala/pip_flutter/blob/master/assets/disablepipmode.png) |
+| ![](https://github.com/kesmitopiwala/picture_in_picture_flutter/blob/master/assets/pipmode.png) | ![](https://github.com/kesmitopiwala/picture_in_picture_flutter/blob/master/assets/disablepipmode.png) |
 
 <br>
 
@@ -28,7 +28,7 @@ A flutter package pip flutter which will help to put your video in pip mode.
 
 ## Installation
 
-First, add `pip_flutter` as a [dependency in your pubspec.yaml file](https://flutter.dev/using-packages/).
+First, add `picture_in_picture_flutter` as a [dependency in your pubspec.yaml file](https://flutter.dev/using-packages/).
 
 ##  Android
 

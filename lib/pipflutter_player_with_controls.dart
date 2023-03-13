@@ -2,16 +2,16 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:pip_flutter/pipflutter_player_controller.dart';
-import 'package:pip_flutter/pipflutter_player_controller_event.dart';
-import 'package:pip_flutter/pipflutter_player_controls_configuration.dart';
-import 'package:pip_flutter/pipflutter_player_cupertino_controls.dart';
-import 'package:pip_flutter/pipflutter_player_material_controls.dart';
-import 'package:pip_flutter/pipflutter_player_subtitles_configuration.dart';
-import 'package:pip_flutter/pipflutter_player_subtitles_drawer.dart';
-import 'package:pip_flutter/pipflutter_player_theme.dart';
-import 'package:pip_flutter/pipflutter_player_utils.dart';
-import 'package:pip_flutter/video_player.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_controller.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_controller_event.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_controls_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_cupertino_controls.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_material_controls.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_subtitles_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_subtitles_drawer.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_theme.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_utils.dart';
+import 'package:picture_in_picture_flutter/video_player.dart';
 
 class PipFlutterPlayerWithControls extends StatefulWidget {
   final PipFlutterPlayerController? controller;

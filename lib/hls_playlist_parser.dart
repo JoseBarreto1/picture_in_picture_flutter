@@ -1,20 +1,20 @@
 import 'dart:convert';
 import 'dart:typed_data';
 import 'package:collection/collection.dart' show IterableExtension;
-import 'package:pip_flutter/drm_init_data.dart';
-import 'package:pip_flutter/format.dart';
-import 'package:pip_flutter/hls_master_playlist.dart';
-import 'package:pip_flutter/hls_media_playlist.dart';
-import 'package:pip_flutter/hls_track_metadata_entry.dart';
-import 'package:pip_flutter/metadata.dart';
-import 'package:pip_flutter/mime_types.dart';
-import 'package:pip_flutter/playlist.dart';
-import 'package:pip_flutter/rendition.dart';
-import 'package:pip_flutter/scheme_data.dart';
-import 'package:pip_flutter/segment.dart';
-import 'package:pip_flutter/util.dart';
-import 'package:pip_flutter/variant.dart';
-import 'package:pip_flutter/variant_info.dart';
+import 'package:picture_in_picture_flutter/drm_init_data.dart';
+import 'package:picture_in_picture_flutter/format.dart';
+import 'package:picture_in_picture_flutter/hls_master_playlist.dart';
+import 'package:picture_in_picture_flutter/hls_media_playlist.dart';
+import 'package:picture_in_picture_flutter/hls_track_metadata_entry.dart';
+import 'package:picture_in_picture_flutter/metadata.dart';
+import 'package:picture_in_picture_flutter/mime_types.dart';
+import 'package:picture_in_picture_flutter/playlist.dart';
+import 'package:picture_in_picture_flutter/rendition.dart';
+import 'package:picture_in_picture_flutter/scheme_data.dart';
+import 'package:picture_in_picture_flutter/segment.dart';
+import 'package:picture_in_picture_flutter/util.dart';
+import 'package:picture_in_picture_flutter/variant.dart';
+import 'package:picture_in_picture_flutter/variant_info.dart';
 
 import 'exception.dart';
 

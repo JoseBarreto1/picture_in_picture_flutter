@@ -1,4 +1,4 @@
-package com.example.pip_flutter
+package com.example.picture_in_picture_flutter
 
 import android.content.Context
 import android.graphics.Bitmap

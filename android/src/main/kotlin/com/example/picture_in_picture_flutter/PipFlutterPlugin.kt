@@ -1,4 +1,4 @@
-package com.example.pip_flutter
+package com.example.picture_in_picture_flutter
 
 import android.app.Activity
 import android.app.PictureInPictureParams
@@ -9,7 +9,7 @@ import android.os.Handler
 import android.os.Looper
 import android.util.Log
 import android.util.LongSparseArray
-import com.example.pip_flutter.PipFlutterPlayerCache.releaseCache
+import com.example.picture_in_picture_flutter.PipFlutterPlayerCache.releaseCache
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler

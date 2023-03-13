@@ -1,6 +1,6 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/rendering.dart';
-import 'package:pip_flutter/variant_info.dart';
+import 'package:picture_in_picture_flutter/variant_info.dart';
 
 class HlsTrackMetadataEntry {
   HlsTrackMetadataEntry({this.groupId, this.name, this.variantInfos});

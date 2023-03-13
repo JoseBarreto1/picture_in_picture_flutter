@@ -1,5 +1,5 @@
-import 'package:pip_flutter/exception.dart';
-import 'package:pip_flutter/mime_types.dart';
+import 'package:picture_in_picture_flutter/exception.dart';
+import 'package:picture_in_picture_flutter/mime_types.dart';
 
 class LibUtil {
   static bool startsWith(List<int> source, List<int> checker) {

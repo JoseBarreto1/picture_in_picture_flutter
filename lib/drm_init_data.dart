@@ -1,6 +1,6 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:pip_flutter/scheme_data.dart';
+import 'package:picture_in_picture_flutter/scheme_data.dart';
 
 class DrmInitData {
   DrmInitData({this.schemeType, this.schemeData = const []});

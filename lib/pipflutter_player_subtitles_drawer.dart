@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_from_html_core/flutter_widget_from_html_core.dart';
-import 'package:pip_flutter/pipflutter_player_controller.dart';
-import 'package:pip_flutter/pipflutter_player_subtitle.dart';
-import 'package:pip_flutter/pipflutter_player_subtitles_configuration.dart';
-import 'package:pip_flutter/video_player.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_controller.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_subtitle.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_subtitles_configuration.dart';
+import 'package:picture_in_picture_flutter/video_player.dart';
 
 class PipFlutterPlayerSubtitlesDrawer extends StatefulWidget {
   final List<PipFlutterPlayerSubtitle> subtitles;

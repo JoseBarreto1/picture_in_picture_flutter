@@ -1,5 +1,5 @@
 import 'package:collection/collection.dart';
-import 'package:pip_flutter/hls_track_metadata_entry.dart';
+import 'package:picture_in_picture_flutter/hls_track_metadata_entry.dart';
 
 class Metadata {
   Metadata(this.list);

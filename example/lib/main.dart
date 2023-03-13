@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pip_flutter/pipflutter_player.dart';
-import 'package:pip_flutter/pipflutter_player_configuration.dart';
-import 'package:pip_flutter/pipflutter_player_controller.dart';
-import 'package:pip_flutter/pipflutter_player_data_source.dart';
-import 'package:pip_flutter/pipflutter_player_data_source_type.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_configuration.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_controller.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_data_source.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player_data_source_type.dart';
 
 void main() {
   runApp(const MyApp());

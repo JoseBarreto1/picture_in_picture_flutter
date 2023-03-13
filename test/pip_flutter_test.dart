@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pip_flutter/pipflutter_player.dart';
+import 'package:picture_in_picture_flutter/pipflutter_player.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('pip_flutter');
+  const MethodChannel channel = MethodChannel('picture_in_picture_flutter');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await PipFlutterPlayer, '42');
+    expect(PipFlutterPlayer, '42');
   });
 }

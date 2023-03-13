@@ -1,6 +1,6 @@
 
 #import "PipFlutterPlugin.h"
-#import <pip_flutter/pip_flutter-Swift.h>
+#import <picture_in_picture_flutter/picture_in_picture_flutter-Swift.h>
 
 #if !__has_feature(objc_arc)
 #error Code Requires ARC.
