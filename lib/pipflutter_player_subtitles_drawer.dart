@@ -22,11 +22,11 @@ class PipFlutterPlayerSubtitlesDrawer extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _PipFlutterPlayerSubtitlesDrawerState createState() =>
-      _PipFlutterPlayerSubtitlesDrawerState();
+  PipFlutterPlayerSubtitlesDrawerState createState() =>
+      PipFlutterPlayerSubtitlesDrawerState();
 }
 
-class _PipFlutterPlayerSubtitlesDrawerState
+class PipFlutterPlayerSubtitlesDrawerState
     extends State<PipFlutterPlayerSubtitlesDrawer> {
   final RegExp htmlRegExp =
       // ignore: unnecessary_raw_strings
@@ -101,7 +101,7 @@ class _PipFlutterPlayerSubtitlesDrawerState
     final List<Widget> textWidgets =
         subtitles.map((text) => _buildSubtitleTextWidget(text)).toList();
 
-    return Container(
+    return SizedBox(
       height: double.infinity,
       width: double.infinity,
       child: Padding(

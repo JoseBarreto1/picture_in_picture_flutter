@@ -134,12 +134,12 @@ class _PipFlutterPlayerMaterialControlsState
 
   @override
   void didChangeDependencies() {
-    final _oldController = _pipFlutterPlayerController;
+    final oldController = _pipFlutterPlayerController;
     _pipFlutterPlayerController = PipFlutterPlayerController.of(context);
     _controller = _pipFlutterPlayerController!.videoPlayerController;
     _latestValue = _controller!.value;
 
-    if (_oldController != _pipFlutterPlayerController) {
+    if (oldController != _pipFlutterPlayerController) {
       _dispose();
       _initialize();
     }
@@ -197,7 +197,7 @@ class _PipFlutterPlayerMaterialControlsState
               opacity: controlsNotVisible ? 0.0 : 1.0,
               duration: _controlsConfiguration.controlsHideTime,
               onEnd: _onPlayerHide,
-              child: Container(
+              child: SizedBox(
                 height: _controlsConfiguration.controlBarHeight,
                 width: double.infinity,
                 child: Row(
@@ -245,7 +245,7 @@ class _PipFlutterPlayerMaterialControlsState
             opacity: hideStuff ? 0.0 : 1.0,
             duration: pipFlutterPlayerControlsConfiguration.controlsHideTime,
             onEnd: onPlayerHide,
-            child: Container(
+            child: SizedBox(
               height: pipFlutterPlayerControlsConfiguration.controlBarHeight,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.end,
@@ -285,7 +285,7 @@ class _PipFlutterPlayerMaterialControlsState
       opacity: controlsNotVisible ? 0.0 : 1.0,
       duration: _controlsConfiguration.controlsHideTime,
       onEnd: _onPlayerHide,
-      child: Container(
+      child: SizedBox(
         height: _controlsConfiguration.controlBarHeight + 20.0,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,

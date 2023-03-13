@@ -27,14 +27,14 @@ class PipFlutterPlayerMaterialVideoProgressBar extends StatefulWidget {
   final Function()? onTapDown;
 
   @override
-  _VideoProgressBarState createState() {
-    return _VideoProgressBarState();
+  VideoProgressBarState createState() {
+    return VideoProgressBarState();
   }
 }
 
-class _VideoProgressBarState
+class VideoProgressBarState
     extends State<PipFlutterPlayerMaterialVideoProgressBar> {
-  _VideoProgressBarState() {
+  VideoProgressBarState() {
     listener = () {
       setState(() {});
     };

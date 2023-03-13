@@ -644,11 +644,11 @@ class VideoPlayer extends StatefulWidget {
   final VideoPlayerController? controller;
 
   @override
-  _VideoPlayerState createState() => _VideoPlayerState();
+  VideoPlayerState createState() => VideoPlayerState();
 }
 
-class _VideoPlayerState extends State<VideoPlayer> {
-  _VideoPlayerState() {
+class VideoPlayerState extends State<VideoPlayer> {
+  VideoPlayerState() {
     _listener = () {
       final int? newTextureId = widget.controller!.textureId;
       if (newTextureId != _textureId) {
@@ -842,11 +842,11 @@ class VideoProgressIndicator extends StatefulWidget {
   final EdgeInsets padding;
 
   @override
-  _VideoProgressIndicatorState createState() => _VideoProgressIndicatorState();
+  VideoProgressIndicatorState createState() => VideoProgressIndicatorState();
 }
 
-class _VideoProgressIndicatorState extends State<VideoProgressIndicator> {
-  _VideoProgressIndicatorState() {
+class VideoProgressIndicatorState extends State<VideoProgressIndicator> {
+  VideoProgressIndicatorState() {
     listener = () {
       if (!mounted) {
         return;

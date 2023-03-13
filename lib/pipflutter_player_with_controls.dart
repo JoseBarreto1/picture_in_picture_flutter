@@ -20,11 +20,11 @@ class PipFlutterPlayerWithControls extends StatefulWidget {
       : super(key: key);
 
   @override
-  _PipFlutterPlayerWithControlsState createState() =>
-      _PipFlutterPlayerWithControlsState();
+  PipFlutterPlayerWithControlsState createState() =>
+      PipFlutterPlayerWithControlsState();
 }
 
-class _PipFlutterPlayerWithControlsState
+class PipFlutterPlayerWithControlsState
     extends State<PipFlutterPlayerWithControls> {
   PipFlutterPlayerSubtitlesConfiguration get subtitlesConfiguration =>
       widget.controller!.pipFlutterPlayerConfiguration.subtitlesConfiguration;
@@ -310,7 +310,7 @@ class _PipFlutterPlayerVideoFitWidgetState
     if (_initialized && _started) {
       return Center(
         child: ClipRect(
-          child: Container(
+          child: SizedBox(
             width: double.infinity,
             height: double.infinity,
             child: FittedBox(

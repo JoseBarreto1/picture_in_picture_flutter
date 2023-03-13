@@ -18,5 +18,6 @@ class DrmInitData {
   }
 
   @override
+  // ignore: deprecated_member_use
   int get hashCode => hashValues(schemeType, schemeData);
 }

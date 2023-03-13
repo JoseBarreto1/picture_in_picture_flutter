@@ -48,12 +48,12 @@ class PipFlutterPlayer extends StatefulWidget {
   final PipFlutterPlayerController controller;
 
   @override
-  _PipFlutterPlayerState createState() {
-    return _PipFlutterPlayerState();
+  PipFlutterPlayerState createState() {
+    return PipFlutterPlayerState();
   }
 }
 
-class _PipFlutterPlayerState extends State<PipFlutterPlayer>
+class PipFlutterPlayerState extends State<PipFlutterPlayer>
     with WidgetsBindingObserver {
   PipFlutterPlayerConfiguration get _pipFlutterPlayerConfiguration =>
       widget.controller.pipFlutterPlayerConfiguration;
@@ -257,6 +257,7 @@ class _PipFlutterPlayerState extends State<PipFlutterPlayer>
       Wakelock.enable();
     }
 
+    // ignore: use_build_context_synchronously
     await Navigator.of(context, rootNavigator: true).push(route);
     _isFullScreen = false;
     widget.controller.exitFullScreen();
